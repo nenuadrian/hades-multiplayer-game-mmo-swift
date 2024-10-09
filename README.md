@@ -1,4 +1,6 @@
-# Light MMO experiment
+# Light MMO server/client performence experiment
+
+[![Swift](https://github.com/nenuadrian/hades-multiplayer-game-mmo-swift/actions/workflows/swift.yml/badge.svg)](https://github.com/nenuadrian/hades-multiplayer-game-mmo-swift/actions/workflows/swift.yml)
 
 ## Overview
 This research experiment investigates the complexities of MMO (Massively Multiplayer Online) servers and clients using the Swift programming language. The experiment leverages the IBM BlueSocket library for socket handling, which is essential for establishing communication between the server and clients.
