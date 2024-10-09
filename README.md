@@ -23,7 +23,7 @@ In this protocol, each packet consists of a series of `UInt8` bytes:
 ## Servers
 ```
 ./build.sh
-.build/debug/Server
+server/.build/debug/Server
 ```
 
 ### Common
@@ -41,6 +41,7 @@ Packet handling library to be used by servers and clients.
 Metal rendering based. Leverages the Common library from `server/Sources/Common`
 
 ```
+cd UI
 xcodebuild test -project UI.xcodeproj -scheme UI
 ```
 
