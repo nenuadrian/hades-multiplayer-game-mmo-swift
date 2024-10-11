@@ -19,12 +19,14 @@ In this protocol, each packet consists of a series of `UInt8` bytes:
 ## Testing
 
 ```
-./test.sh
+cd server
+swift test
 ```
 
 ## Servers
 ```
-./build.sh
+cd server
+swift build
 server/.build/debug/Server
 ```
 
@@ -37,15 +39,6 @@ Packet handling library to be used by servers and clients.
 
 ### World Server
 
-
-## Client Test Game
-
-Metal rendering based. Leverages the Common library from `server/Sources/Common`
-
-```
-cd UI
-xcodebuild test -project UI.xcodeproj -scheme UI
-```
 
 ## Disclaimer
 This project is an experimental research endeavor and was conducted to explore MMO server and client architecture within Swift. It is not intended for production use.
